@@ -13,6 +13,18 @@
         android:theme="@style/Theme.RenterAndLandlordApp"
         tools:targetApi="31">
         <activity
+            android:name=".renter.WatchListScreen"
+            android:exported="false" />
+        <activity
+            android:name=".renter.ListingsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".landlord.ViewListingsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".landlord.CreateListingScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
