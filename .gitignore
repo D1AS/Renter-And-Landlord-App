@@ -1,0 +1,53 @@
+# Gradle files
+.gradle/
+build/
+local.properties
+.gradle-wrapper/
+
+# Android Studio and IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Android specific
+.gradle/
+# Caches
+/caches/
+# Generated files
+gen/
+build/
+# Uncompiled Kotlin files
+out/
+
+# Android Studio-specific files
+.idea/
+.idea/workspace.xml
+.idea/modules.xml
+.idea/gradle.xml
+.idea/.name
+.idea/libraries/
+
+# Kotlin-specific
+*.kotlin_module
+*.kotlin_metadata
+
+# Firebase files (if any)
+google-services.json
+
+# JetBrains IDE-specific
+.idea/
+
+# IntelliJ project files
+*.iml
